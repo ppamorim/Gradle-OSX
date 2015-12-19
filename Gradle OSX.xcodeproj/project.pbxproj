@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC45CFBFA7558D5D1C6E473B /* Pods_Gradle_OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81335C1375A3AB291A4755E7 /* Pods_Gradle_OSX.framework */; };
+		EB96639B1C2513D30009B8ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB96639A1C2513D30009B8ED /* AppDelegate.swift */; };
+		EB96639D1C2513D30009B8ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB96639C1C2513D30009B8ED /* Assets.xcassets */; };
+		EB9663A01C2513D30009B8ED /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB96639E1C2513D30009B8ED /* MainMenu.xib */; };
+		EB9663AD1C2516210009B8ED /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB9663A71C2516210009B8ED /* Alamofire.framework */; };
+		EB9663AE1C2516210009B8ED /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB9663A81C2516210009B8ED /* Alamofire.framework */; };
+		EB9663AF1C2516210009B8ED /* AlamofireObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB9663A91C2516210009B8ED /* AlamofireObjectMapper.framework */; };
+		EB9663B01C2516210009B8ED /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB9663AA1C2516210009B8ED /* ObjectMapper.framework */; };
+		EB9663B11C2516210009B8ED /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB9663AB1C2516210009B8ED /* ObjectMapper.framework */; };
+		EB9663B21C2516210009B8ED /* PureLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB9663AC1C2516210009B8ED /* PureLayout.framework */; };
+		EB9663B41C25164D0009B8ED /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9663B31C25164D0009B8ED /* HomeViewController.swift */; };
+		EB9663B71C2517BD0009B8ED /* NSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9663B61C2517BD0009B8ED /* NSColor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		81335C1375A3AB291A4755E7 /* Pods_Gradle_OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gradle_OSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A99A1F734839C7A9781DD86B /* Pods-Gradle OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gradle OSX.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gradle OSX/Pods-Gradle OSX.release.xcconfig"; sourceTree = "<group>"; };
+		E166C7792A6AA18D7772E2D1 /* Pods-Gradle OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gradle OSX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gradle OSX/Pods-Gradle OSX.debug.xcconfig"; sourceTree = "<group>"; };
+		EB9663971C2513D30009B8ED /* Gradle OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gradle OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB96639A1C2513D30009B8ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB96639C1C2513D30009B8ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB96639F1C2513D30009B8ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EB9663A11C2513D30009B8ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB9663A71C2516210009B8ED /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../Library/Developer/Xcode/DerivedData/Gradle_OSX-ampulzsugsphcngjquysrgsrzqmm/Build/Products/Debug/Alamofire.framework"; sourceTree = "<group>"; };
+		EB9663A81C2516210009B8ED /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../Library/Developer/Xcode/DerivedData/Gradle_OSX-ampulzsugsphcngjquysrgsrzqmm/Build/Products/Debug/Alamofire.framework"; sourceTree = "<group>"; };
+		EB9663A91C2516210009B8ED /* AlamofireObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireObjectMapper.framework; path = "../../../Library/Developer/Xcode/DerivedData/Gradle_OSX-ampulzsugsphcngjquysrgsrzqmm/Build/Products/Debug/AlamofireObjectMapper.framework"; sourceTree = "<group>"; };
+		EB9663AA1C2516210009B8ED /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = "../../../Library/Developer/Xcode/DerivedData/Gradle_OSX-ampulzsugsphcngjquysrgsrzqmm/Build/Products/Debug/ObjectMapper.framework"; sourceTree = "<group>"; };
+		EB9663AB1C2516210009B8ED /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = "../../../Library/Developer/Xcode/DerivedData/Gradle_OSX-ampulzsugsphcngjquysrgsrzqmm/Build/Products/Debug/ObjectMapper.framework"; sourceTree = "<group>"; };
+		EB9663AC1C2516210009B8ED /* PureLayout.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PureLayout.framework; path = "../../../Library/Developer/Xcode/DerivedData/Gradle_OSX-ampulzsugsphcngjquysrgsrzqmm/Build/Products/Debug/PureLayout.framework"; sourceTree = "<group>"; };
+		EB9663B31C25164D0009B8ED /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EB9663B61C2517BD0009B8ED /* NSColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSColor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB9663941C2513D30009B8ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB9663AD1C2516210009B8ED /* Alamofire.framework in Frameworks */,
+				EB9663AE1C2516210009B8ED /* Alamofire.framework in Frameworks */,
+				EB9663AF1C2516210009B8ED /* AlamofireObjectMapper.framework in Frameworks */,
+				EB9663B01C2516210009B8ED /* ObjectMapper.framework in Frameworks */,
+				EB9663B11C2516210009B8ED /* ObjectMapper.framework in Frameworks */,
+				EB9663B21C2516210009B8ED /* PureLayout.framework in Frameworks */,
+				AC45CFBFA7558D5D1C6E473B /* Pods_Gradle_OSX.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AE03F6D5C1422A4814A730E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E166C7792A6AA18D7772E2D1 /* Pods-Gradle OSX.debug.xcconfig */,
+				A99A1F734839C7A9781DD86B /* Pods-Gradle OSX.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AC2B81D1D05AEA038BDBD9DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB9663A71C2516210009B8ED /* Alamofire.framework */,
+				EB9663A81C2516210009B8ED /* Alamofire.framework */,
+				EB9663A91C2516210009B8ED /* AlamofireObjectMapper.framework */,
+				EB9663AA1C2516210009B8ED /* ObjectMapper.framework */,
+				EB9663AB1C2516210009B8ED /* ObjectMapper.framework */,
+				EB9663AC1C2516210009B8ED /* PureLayout.framework */,
+				81335C1375A3AB291A4755E7 /* Pods_Gradle_OSX.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB96638E1C2513D30009B8ED = {
+			isa = PBXGroup;
+			children = (
+				EB9663991C2513D30009B8ED /* Gradle OSX */,
+				EB9663981C2513D30009B8ED /* Products */,
+				5AE03F6D5C1422A4814A730E /* Pods */,
+				AC2B81D1D05AEA038BDBD9DD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EB9663981C2513D30009B8ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB9663971C2513D30009B8ED /* Gradle OSX.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB9663991C2513D30009B8ED /* Gradle OSX */ = {
+			isa = PBXGroup;
+			children = (
+				EB9663B51C2517AC0009B8ED /* Extension */,
+				EB96639A1C2513D30009B8ED /* AppDelegate.swift */,
+				EB96639C1C2513D30009B8ED /* Assets.xcassets */,
+				EB96639E1C2513D30009B8ED /* MainMenu.xib */,
+				EB9663A11C2513D30009B8ED /* Info.plist */,
+				EB9663B31C25164D0009B8ED /* HomeViewController.swift */,
+			);
+			path = "Gradle OSX";
+			sourceTree = "<group>";
+		};
+		EB9663B51C2517AC0009B8ED /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EB9663B61C2517BD0009B8ED /* NSColor.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB9663961C2513D30009B8ED /* Gradle OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB9663A41C2513D30009B8ED /* Build configuration list for PBXNativeTarget "Gradle OSX" */;
+			buildPhases = (
+				BFC89DE0B3B2CCDFE75D35F8 /* Check Pods Manifest.lock */,
+				EB9663931C2513D30009B8ED /* Sources */,
+				EB9663941C2513D30009B8ED /* Frameworks */,
+				EB9663951C2513D30009B8ED /* Resources */,
+				7C10B489DD0CF463870DC89D /* Embed Pods Frameworks */,
+				12515B73D005939A0D55E94B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gradle OSX";
+			productName = "Gradle OSX";
+			productReference = EB9663971C2513D30009B8ED /* Gradle OSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB96638F1C2513D30009B8ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ppamorim;
+				TargetAttributes = {
+					EB9663961C2513D30009B8ED = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = EB9663921C2513D30009B8ED /* Build configuration list for PBXProject "Gradle OSX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB96638E1C2513D30009B8ED;
+			productRefGroup = EB9663981C2513D30009B8ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB9663961C2513D30009B8ED /* Gradle OSX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB9663951C2513D30009B8ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB96639D1C2513D30009B8ED /* Assets.xcassets in Resources */,
+				EB9663A01C2513D30009B8ED /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12515B73D005939A0D55E94B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gradle OSX/Pods-Gradle OSX-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C10B489DD0CF463870DC89D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gradle OSX/Pods-Gradle OSX-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFC89DE0B3B2CCDFE75D35F8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB9663931C2513D30009B8ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB96639B1C2513D30009B8ED /* AppDelegate.swift in Sources */,
+				EB9663B71C2517BD0009B8ED /* NSColor.swift in Sources */,
+				EB9663B41C25164D0009B8ED /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB96639E1C2513D30009B8ED /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB96639F1C2513D30009B8ED /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB9663A21C2513D30009B8ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB9663A31C2513D30009B8ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EB9663A51C2513D30009B8ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E166C7792A6AA18D7772E2D1 /* Pods-Gradle OSX.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Gradle OSX/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Gradle-OSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EB9663A61C2513D30009B8ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A99A1F734839C7A9781DD86B /* Pods-Gradle OSX.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Gradle OSX/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Gradle-OSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB9663921C2513D30009B8ED /* Build configuration list for PBXProject "Gradle OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB9663A21C2513D30009B8ED /* Debug */,
+				EB9663A31C2513D30009B8ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB9663A41C2513D30009B8ED /* Build configuration list for PBXNativeTarget "Gradle OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB9663A51C2513D30009B8ED /* Debug */,
+				EB9663A61C2513D30009B8ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB96638F1C2513D30009B8ED /* Project object */;
+}
